@@ -4,6 +4,12 @@
   </head>
 
   <body>
+    <p>helo</p>
+    <p>world</p>
+
+    <label>Hello</label>
+    <label>World</label>
+
     <!-- User Info Table -->
     <table border="1">
       <tr>
@@ -37,51 +43,57 @@
     <br />
     <br />
 
-    <!-- Taking data from user -->
-    <fieldset>
-      <legend>Contact details</legend>
-      <label>
-        User Name:
-        <input
-          type="text"
-          size="20"
-          maxlength="10"
-          placeholder="Enter your full name"
-        />
-      </label>
+    <!--User Details Form -->
 
-      <br />
-      <br />
+    <form>
+      <fieldset>
+        <legend>Contact details</legend>
+        <label>
+          User Name:
+          <input
+            type="text"
+            size="20"
+            maxlength="10"
+            minlength="5"
+            placeholder="Enter your full name"
+            required
+          />
+        </label>
 
-      <label>
-        Email:
-        <input type="email" size="25" />
-      </label>
+        <br />
+        <br />
 
-      <br />
-      <br />
+        <label>
+          Email:
+          <input type="email" size="25" required />
+        </label>
 
-      <label>
-        Password:
-        <input type="password" size="22" />
-      </label>
-    </fieldset>
-    <br />
-    <br />
+        <br />
+        <br />
 
-    <label>
-      Male:
-      <input type="radio" checked />
-    </label>
-    <label>
-      Female:
-      <input type="radio" />
-    </label>
-    <label>
-      Tiktoker:
-      <input type="radio" />
-    </label>
-
+        <label>
+          Password:
+          <input type="password" size="22" required />
+        </label>
+        <br />
+        <br />
+        <label>
+          Male:
+          <input type="radio" name="gender" />
+        </label>
+        <label>
+          Female:
+          <input type="radio" name="gender" />
+        </label>
+        <label>
+          Tiktoker:
+          <input type="radio" name="gender" />
+        </label>
+        <br />
+        <br />
+        <button type="submit">Submit Form</button>
+      </fieldset>
+    </form>
     <br />
     <br />
 
@@ -123,6 +135,27 @@
 
     <br />
     <br />
-    <p>1</p>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/-u3vE84Wo_U?si=BqNFVzGxQXbI5NuM"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28970.65905073287!2d67.01966255!3d24.8183044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33dbbdc1875bf%3A0x6a6572ab3a66fed8!2sClifton%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh!5e0!3m2!1sen!2s!4v1727508655655!5m2!1sen!2s"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      scrolling="no"
+    ></iframe>
   </body>
 </html>
