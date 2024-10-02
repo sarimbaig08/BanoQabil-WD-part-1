@@ -8,5 +8,8 @@ Week-1: Second Class
 Visual Studio Code ->
 Filing structure, Navigation between files, Github Overview
 
-Week-2: First Class
-Forms Handling, Input fields
+Week-2: Third Class
+Input fields
+
+Week-2: Fourth Class
+Forms Handling, Revision of all covered topics, (Html Quiz)
