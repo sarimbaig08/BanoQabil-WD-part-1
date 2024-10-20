@@ -1,0 +1,82 @@
+.greet {
+  background-color: aquamarine;
+}
+
+.box1,
+.box2,
+.box3 {
+  /* border: 1px solid red; */
+  background-color: antiquewhite;
+  height: 60px;
+  width: 120px;
+  margin: 10px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.box1 {
+  /* visibility: none; */
+  display: none;
+}
+
+.parent {
+  height: 200px;
+  width: 200px;
+  border: 2px solid gray;
+  /* position: relative; */
+}
+.child1 {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  /* position: sticky; */
+  top: 0;
+  /* top: 10; */
+  /* right: 0; */
+  /* left: 10; */
+  /* bottom: 0; */
+}
+
+.svgClass {
+  height: 30px;
+  width: 30px;
+}
+
+.overflowDiv {
+  background-color: aqua;
+  height: 100px;
+  width: 500px;
+  overflow: hidden;
+}
+
+img {
+  opacity: 0.2;
+}
+
+.navbar {
+  background-color: aqua;
+  position: fixed;
+  width: 100%;
+  /* height: 50px; */
+  padding: 20px 10px;
+}
+
+.bannerSection {
+  padding-top: 80px;
+}
+
+.menu1 {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  position: relative;
+  display: inline-block;
+}
+.dishName {
+  position: absolute;
+  top: 80px;
+  right: 70px;
+  padding: 10px;
+  background-color: rgba(127, 255, 212, 0.357);
+  display: inline-block;
+}
