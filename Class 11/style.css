@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  background-color: #000000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.svgSize {
+  height: 20px;
+  width: 20px;
+}
+
+.bannerDiv {
+  height: 600px;
+  width: 100%;
+  /* background-color: gray; */
+  background-image: url("https://www.apple.com/v/iphone-16-pro/c/images/overview/product-viewer/iphone-pro/black_titanium__ezezv5esulua_large.jpg");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.bannerContent {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bannerImg,
+.bannerTextBtn {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.bannerTextBtn button {
+  width: 100px;
+  padding: 10px 0px;
+  border-radius: 30px;
+}
+
+.bannerTextBtn {
+  color: white;
+}
+
+/* .hoverEffect {
+  height: 10px;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.hoverEffect:hover {
+  background-color: red;
+  height: 500px;
+} */

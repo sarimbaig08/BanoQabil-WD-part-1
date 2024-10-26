@@ -25,3 +25,8 @@ display properties hidden none, positions, z-index, overflow, opacity
 
 Week-5 (Class 10):
 Css Images, Flex and its properties
+
+Week-6 (Class 11):
+Assignment overview, Responsive Design, Media Query
+
+Week-6 (Class 12):
