@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  background-color: rgb(255, 208, 208);
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.parent div {
+  height: 500px;
+  width: 100%;
+  border: 1px solid black;
+  /* margin: 20px; */
+  position: relative;
+}
+
+.box {
+  height: 50px !important;
+  width: 50px !important;
+  background-color: black;
+  position: absolute !important;
+  z-index: 1;
+  top: 0;
+}
+
+/* @media (min-width: 320px) {
+  .parent {
+    flex-direction: column;
+  }
+} */
+/* .parent div {
+    width: 100%;
+  }
+} */
+
+@media (min-width: 768px) {
+  .parent {
+    flex-direction: row;
+  }
+  .parent div {
+    width: 50%;
+  }
+}

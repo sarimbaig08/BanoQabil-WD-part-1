@@ -27,6 +27,13 @@ Week-5 (Class 10):
 Css Images, Flex and its properties
 
 Week-6 (Class 11):
-Assignment overview, Responsive Design, Media Query
+Assignment overview, Responsive Design Introduction
 
 Week-6 (Class 12):
+Responsive, Github
+
+Week-7 (Class 13):
+@media queries, Github (branches, pull, merge), live hosting (netlify)
+
+Week-7 (Class 14):
+4.O Test

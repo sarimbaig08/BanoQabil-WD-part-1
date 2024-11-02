@@ -61,13 +61,20 @@
   color: white;
 }
 
-/* .hoverEffect {
+button {
+  background-color: transparent;
+  border: 1px solid blue;
+  color: blue;
+}
+
+.hoverEffect {
   height: 10px;
   width: 100%;
   background-color: aquamarine;
+  transition: height 1s;
 }
 
 .hoverEffect:hover {
   background-color: red;
   height: 500px;
-} */
+}
