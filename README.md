@@ -37,3 +37,14 @@ Week-7 (Class 13):
 
 Week-7 (Class 14):
 4.O Test
+
+week-8:
+
+week-9 (Class 17):
+Bootstrap Introduction
+
+week-9 (Class 18):
+Bootstrap
+
+week-10 (Class 19):
+Javascript Introduction ( Alert, Syntax, math operations, legal & illegal datatypes)
