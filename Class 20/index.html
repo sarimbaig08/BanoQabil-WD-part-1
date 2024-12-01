@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Javascript class2</h1>
+    <script>
+      // DATATYPES
+      // String
+      // Number
+      // Boolean
+      // null
+      // undefined
+
+      var value = true;
+
+      //   var name = "sarim";
+      //   var => keyword
+      // name => variable name
+      // = assignment operator
+      // "sarim" =>value
+
+      var firstName; //=> initial
+      firstName = "sarim"; //=> value assignment
+
+      //Variable Name
+
+      //illegal variables
+      // #name special chac can't be used in start and middle except $ _
+      // 2name can't use number in start
+      // can't use js reserved words
+      // can't give space between variable
+
+      //   console.log("Printed", name);
+
+      //   var num1 = 5;
+      //   var num2 = 10;
+      //   var sum = num1 + num2;
+      //   console.log(sum);
+
+      // Pre inc / dec
+      //   console.log(++num1);
+      //   console.log(--num1);
+
+      // Post inc / dec
+      //   console.log(num1--);
+      //   console.log(num1);
+
+      //   var name = prompt("Enter your name");
+      //   console.log(name);
+
+      //CONDITIONAL STATEMENTS
+
+      // if(){}
+      // if => agr
+      // ()=> conditions
+      // {}=> operation to perform
+
+      //   var num1 = prompt("Enter value of num1");
+      //   var num2 = 10;
+
+      //   if (num1 >= num2) {
+      //     console.log("Num1 is equal or greater");
+      //   } else {
+      //     console.log("Num2 is greater", num2);
+      //   }
+
+      //   var gender = prompt("Enter you gender");
+      //   if (gender == "male") {
+      //     console.log("allow");
+      //   } else if (gender == "female") {
+      //     console.log("not allow");
+      //   } else if (gender == "Female") {
+      //     console.log("not allow");
+      //   } else {
+      //     console.log("please enter correct gender");
+      //   }
+
+      //Basic Calculator
+      var num1 = prompt("Enter first value");
+      num1 = parseInt(num1);
+      var num2 = prompt("Enter second value");
+      num2 = parseInt(num2);
+      var opr = prompt("Enter operator: (+ OR -)");
+
+      console.log("num1:" + num1, "num2:" + num2, "opr:" + opr);
+
+      var answer;
+      if (opr == "+") {
+        answer = num1 + num2;
+      } else if (opr == "-") {
+        answer = num1 - num2;
+      }
+      console.log("answer", answer);
+    </script>
+  </body>
+</html>

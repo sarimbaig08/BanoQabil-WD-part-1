@@ -47,4 +47,7 @@ week-9 (Class 18):
 Bootstrap
 
 week-10 (Class 19):
-Javascript Introduction ( Alert, Syntax, math operations, legal & illegal datatypes)
+Javascript Introduction ( Alert, Syntax, math operations, legal & illegal variables)
+
+week-10 (Class 20):
+Datatypes, Pre & Post Inc/Dec, Conditional Statements,
