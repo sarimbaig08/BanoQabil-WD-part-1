@@ -51,3 +51,9 @@ Javascript Introduction ( Alert, Syntax, math operations, legal & illegal variab
 
 week-10 (Class 20):
 Datatypes, Pre & Post Inc/Dec, Conditional Statements,
+
+week-11 (Class 21):
+arrays, flow of login signup
+
+week-11 (Class 22):
+loops, objects, functions
