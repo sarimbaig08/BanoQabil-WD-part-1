@@ -1,10 +1,10 @@
-//initializing/declaration =>var firstname;
-//value assignment =>firstname = "sarim";
+//declaration =>var firstname;
+//value assignment/initialization =>firstname = "sarim";
 
 //Re Declaration & Override
 
 //VAR
-// var => allow re-initialization & override
+// var => allow re-declaration & override
 // var firstname = "hello";
 // firstname = "sarim";
 // console.log(firstname);
@@ -18,7 +18,7 @@
 // console.log("outside", firstname);
 
 //LET
-// let => don't allow re-initialization but allow override
+// let => don't allow re-declaration but allow override
 // let lastName = "hello";
 // lastName = "sarim";
 // console.log(lastName);
@@ -33,7 +33,7 @@
 // console.log("outside", firstname);
 
 // CONST
-// const => don't allow re-initialization & override
+// const => don't allow re-declaration & override
 // const userName = "hello";
 // userName = "sarim";
 // console.log(userName);

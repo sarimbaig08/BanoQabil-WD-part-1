@@ -56,4 +56,10 @@ week-11 (Class 21):
 arrays, flow of login signup
 
 week-11 (Class 22):
-loops, objects, functions
+loops, objects, array of objects
+
+week-12 (Class 23):
+functions, login signup using local storage
+
+week-12 (Class 24):
+dom, api fetching
